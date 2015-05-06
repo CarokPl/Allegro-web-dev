@@ -9,17 +9,20 @@ module.exports = function (grunt) {
         less: {
             development: {
                 files: {
-                    "css/dist/style.css": "css/source/index.less",
-                    "css/dist/bootstrap.css": "css/bootstrap/bootstrap.less",
-                    "css/dist/font-awesome.css": "css/font-awesome/font-awesome.less"
+                    "css/style.css": "less/source/index.less",
+                    "css/bootstrap.css": "less/bootstrap/bootstrap.less",
+                    "css/font-awesome.css": "less/font-awesome/font-awesome.less"
+                },
+                options: {
+                    compress: "true"
                 }
             }
         },
         watch: {
             less: {
-                files: ['css/source/*.less',
-                        'css/bootstrap/*.less', 'css/bootstrap/bootstrap/*.less', 
-                        'css/font-awesome/*.less', 'css/font-awesome/font-awesome/*.less'],
+                files: ['less/source/*.less',
+                        'less/bootstrap/*.less', 'less/bootstrap/bootstrap/*.less', 
+                        'less/font-awesome/*.less', 'less/font-awesome/font-awesome/*.less'],
                 tasks: ['less'],
             }
         }
