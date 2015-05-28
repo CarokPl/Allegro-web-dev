@@ -1,24 +1,22 @@
 .current-lessons {
-    animation: animationFrames linear @current-lessons-speed;
+    animation: animationFrames ease-in @current-lessons-speed;
     animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    animation-delay: -40s;
-    -webkit-animation: animationFrames linear @current-lessons-speed;
+    -webkit-animation: animationFrames ease-in @current-lessons-speed;
     -webkit-animation-iteration-count: infinite;
-    -webkit-transform-origin: 50% 50%;
-    -moz-animation: animationFrames linear @current-lessons-speed;
+    -moz-animation: animationFrames ease-in @current-lessons-speed;
     -moz-animation-iteration-count: infinite;
-    -moz-transform-origin: 50% 50%;
-    -o-animation: animationFrames linear @current-lessons-speed;
+    -o-animation: animationFrames ease-in @current-lessons-speed;
     -o-animation-iteration-count: infinite;
-    -o-transform-origin: 50% 50%;
-    -ms-animation: animationFrames linear @current-lessons-speed;
+    -ms-animation: animationFrames ease-in @current-lessons-speed;
     -ms-animation-iteration-count: infinite;
-    -ms-transform-origin: 50% 50%;
 }
 
 @keyframes animationFrames {
     0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
         transform: translate(@current-lessons-start, 0px);
     }
     100% {
