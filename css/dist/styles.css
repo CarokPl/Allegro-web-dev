@@ -1,7 +1,5 @@
 @charset 'UTF-8';
-@import "animations/animate.css";
-@import url("http://fonts.googleapis.com/css?family=Indie+Flower");
-@import url('http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext');
+@import url('http://fonts.googleapis.com/css?family=Condiment&subset=latin,latin-ext');
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -8363,6 +8361,7 @@ body {
   text-shadow: 2px 3px 0px #ffffff;
 }
 .header .logo {
+  font-family: 'Condiment', sans-serif;
   float: left;
   margin-top: 0;
 }
@@ -8371,16 +8370,12 @@ body {
   color: #ff7100;
 }
 .header .toEnd {
+  font-family: 'Condiment', sans-serif;
   float: right;
   font-size: 30px;
 }
 .header .toEnd i.fa {
   color: #ff7100;
-}
-hr {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-top-color: rgba(255, 113, 0, 0.15);
 }
 @media all and (max-width: 550px) {
   .header .logo {
@@ -8490,7 +8485,6 @@ hr {
   box-shadow: 0px 3px 5px;
 }
 .message .title h2 {
-  font-family: 'Bitter', sans-serif;
   margin-top: 10px;
   float: left;
 }
@@ -8502,26 +8496,24 @@ hr {
   font-weight: 700;
 }
 .current-lessons {
-  animation: animationFrames linear 40s;
+  animation: animationFrames ease-in 40s;
   animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-  animation-delay: -40s;
-  -webkit-animation: animationFrames linear 40s;
+  -webkit-animation: animationFrames ease-in 40s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames linear 40s;
+  -moz-animation: animationFrames ease-in 40s;
   -moz-animation-iteration-count: infinite;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames linear 40s;
+  -o-animation: animationFrames ease-in 40s;
   -o-animation-iteration-count: infinite;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames linear 40s;
+  -ms-animation: animationFrames ease-in 40s;
   -ms-animation-iteration-count: infinite;
-  -ms-transform-origin: 50% 50%;
 }
 @keyframes animationFrames {
   0% {
-    transform: translate(1200px, 0px);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+    transform: translate(0px, 0px);
   }
   100% {
     transform: translate(-3750px, 0px);
@@ -8529,7 +8521,7 @@ hr {
 }
 @-moz-keyframes animationFrames {
   0% {
-    -moz-transform: translate(1200px, 0px);
+    -moz-transform: translate(0px, 0px);
   }
   100% {
     -moz-transform: translate(-3750px, 0px);
@@ -8537,7 +8529,7 @@ hr {
 }
 @-webkit-keyframes animationFrames {
   0% {
-    -webkit-transform: translate(1200px, 0px);
+    -webkit-transform: translate(0px, 0px);
   }
   100% {
     -webkit-transform: translate(-3750px, 0px);
@@ -8545,7 +8537,7 @@ hr {
 }
 @-o-keyframes animationFrames {
   0% {
-    -o-transform: translate(1200px, 0px);
+    -o-transform: translate(0px, 0px);
   }
   100% {
     -o-transform: translate(-3750px, 0px);
@@ -8553,7 +8545,7 @@ hr {
 }
 @-ms-keyframes animationFrames {
   0% {
-    -ms-transform: translate(1200px, 0px);
+    -ms-transform: translate(0px, 0px);
   }
   100% {
     -ms-transform: translate(-3750px, 0px);
