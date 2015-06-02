@@ -8353,7 +8353,7 @@ button.close {
   }
 }
 body {
-  background: #f7f7f7 url('/zsmeie/images/bg.png');
+  background: #f7f7f7 url('../../img/bg.png');
   color: #444;
 }
 .header {
