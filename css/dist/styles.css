@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.eot?v=4.3.0');
-  src: url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/allegroZajecia/fonts/font-awesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  src: url('../../fonts/font-awesome/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../../fonts/font-awesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../../fonts/font-awesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../../fonts/font-awesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../../fonts/font-awesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2058,8 +2058,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.eot');
-  src: url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.woff2') format('woff2'), url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.woff') format('woff'), url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.ttf') format('truetype'), url('/allegroZajecia/fonts/bootstrapglyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../fonts/bootstrapglyphicons-halflings-regular.eot');
+  src: url('../../fonts/bootstrapglyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/bootstrapglyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/bootstrapglyphicons-halflings-regular.woff') format('woff'), url('../../fonts/bootstrapglyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/bootstrapglyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -8353,7 +8353,7 @@ button.close {
   }
 }
 body {
-  background: #f7f7f7 url('/zsmeie/images/bg.png');
+  background: #f7f7f7 url('../../img/bg.png');
   color: #444;
 }
 .header {
