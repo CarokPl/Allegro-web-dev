@@ -8521,6 +8521,10 @@ body {
 }
 @-moz-keyframes animationFrames {
   0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
     -moz-transform: translate(0px, 0px);
   }
   100% {
@@ -8529,6 +8533,10 @@ body {
 }
 @-webkit-keyframes animationFrames {
   0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
     -webkit-transform: translate(0px, 0px);
   }
   100% {
@@ -8537,6 +8545,10 @@ body {
 }
 @-o-keyframes animationFrames {
   0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
     -o-transform: translate(0px, 0px);
   }
   100% {
@@ -8545,6 +8557,10 @@ body {
 }
 @-ms-keyframes animationFrames {
   0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
     -ms-transform: translate(0px, 0px);
   }
   100% {
