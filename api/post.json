@@ -1,0 +1,26 @@
+[
+    {
+        "avatar": "/img/avatar.png",
+        "title": "First Post",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime harum, iste illo voluptatem repellendus sequi ut, porro saepe, consequatur incidunt nisi laborum impedit asperiores. Repellat eius delectus molestias illum! Itaque.",
+        "date": "10:21 21.05.2015"
+    },
+    {
+        "avatar": "/img/avatar2.png",
+        "title": "2th Post",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime harum, iste illo voluptatem repellendus sequi ut, porro saepe, consequatur incidunt nisi laborum impedit asperiores. Repellat eius delectus molestias illum! Itaque.",
+        "date": "12:32 19.05.2015"
+    },
+    {
+        "avatar": "/img/avatar.png",
+        "title": "3rd Post",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime harum, iste illo voluptatem repellendus sequi ut, porro saepe, consequatur incidunt nisi laborum impedit asperiores. Repellat eius delectus molestias illum! Itaque.",
+        "date": "15:42 15.05.2015"
+    },
+    {
+        "avatar": "/img/avatar2.png",
+        "title": "4th Post",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime harum, iste illo voluptatem repellendus sequi ut, porro saepe, consequatur incidunt nisi laborum impedit asperiores. Repellat eius delectus molestias illum! Itaque.",
+        "date": "20:32 04.05.2015"
+    }
+]
