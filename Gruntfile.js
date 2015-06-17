@@ -14,18 +14,23 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-
             css: {
                 files: ['css/source/**/*.less'],
-                tasks: ['less'],
+                tasks: ['less']
+            },
+            scripts: {
+                files: ['js/*.js', 'js/**/*.js'],
+                tasks: ['uglify']
             }
         },
         uglify: {
             my_target: {
                 files: {
-                    'js/dest/output.min.js': ['js/*.js']
+                    'js/dest/output.min.js': ['js/*.js', 'js/user/*.js'],
+                    'js/dest/admin.min.js': ['js/*.js', 'js/admin/*.js']
                 }
             }
+
         }
     });
 }

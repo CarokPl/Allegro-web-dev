@@ -1,0 +1,227 @@
+[
+    {
+        "lesson": "J. niemiecki",
+        "teacher": "Teresa Golińska",
+        "aClass": "1b",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": "Historia",
+        "teacher": "Andrzej Gac",
+        "aClass": "1d",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": "J. angielski",
+        "teacher": "Renata Gac",
+        "aClass": "1e",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": "Matematyka",
+        "teacher": "Violetta Kalka",
+        "aClass": "1h",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": "J. polski",
+        "teacher": "Teresa Golińska",
+        "aClass": "1k",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": "Informatyka",
+        "teacher": "Andrzej Gac",
+        "aClass": "1t",
+        "building": "Budynek główny",
+        "classRoom": "80",
+        "hours": "9:05 - 9:50",
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2b",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2c",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2d",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2e",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2h",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2k",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "2t",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3d",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3e",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3h",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3i",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3k",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "3t",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4d",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4e",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4h",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4i",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4k",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    },
+    {
+        "lesson": null,
+        "teacher": null,
+        "aClass": "4t",
+        "building": null,
+        "classRoom": null,
+        "hours": null,
+        "info": null
+    }
+]
