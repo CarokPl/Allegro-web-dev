@@ -19,7 +19,7 @@ module.exports = function (grunt) {
                 tasks: ['less']
             },
             scripts: {
-                files: ['js/*.js', 'js/**/*.js'],
+                files: ['js/*.js', 'js/user/*.js', 'js/admin/*.js'],
                 tasks: ['uglify']
             }
         },

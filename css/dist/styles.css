@@ -8498,6 +8498,10 @@ body {
 #addLessonAlert {
   display: none;
 }
+.lessonList .teacher {
+  font-size: 12px;
+  color: #7f7f7f;
+}
 .current-lessons {
   animation: animationFrames ease-in 40s;
   animation-iteration-count: infinite;

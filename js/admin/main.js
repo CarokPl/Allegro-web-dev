@@ -1,3 +1,4 @@
+var base_url = 'http://localhost:8080/';
 $(document).ready(function () {
 
     getTeachers();
@@ -24,11 +25,29 @@ $(document).ready(function () {
         e.preventDefault();
         addClassRoon();
     });
+    $('#editLessonModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var lessonId = button.data('lesson-id');
+        var modal = $(this);
+
+        getLesson(lessonId, modal);
+    })
 });
+
+function getLesson(lessonId, modal) {
+    $.get(base_url + "lessons/" + lessonId, function (data) {
+        console.log(data);
+        $('#editLessonModal input[name=lessonName]').val(data.name);
+        $('#editLessonModal select[name=teacher] option[value=' + data.teacher.id + ']').attr('selected', 'selected');
+        $('#editLessonModal select[name=class] option[value=' + data.aClass.id + ']').attr('selected', 'selected');
+        $('#editLessonModal select[name=classRoom] option[value=' + data.classRoom.id + ']').attr('selected', 'selected');
+        $('#editLessonModal select[name=hour] option[value=' + data.hour.number + ']').attr('selected', 'selected');
+    });
+}
 
 function getTeachers() {
     $('#teacherList').html('<option value="0">Wybierz nauczyciela</option>');
-    $.get("http://192.168.0.18:8080/teachers", function (data) {
+    $.get(base_url + "teachers", function (data) {
         $('#teacherList').html('');
         $.each(data, function (index, value) {
             $('#teacherList').append('<option value="' + value.id + '">' + value.firstName + ' ' + value.lastName + '</option>');
@@ -38,7 +57,7 @@ function getTeachers() {
 
 function getClasses() {
     $('#classList').html('<option value="0">Wybierz klase</option>');
-    $.get("http://192.168.0.18:8080/classes", function (data) {
+    $.get(base_url + "classes", function (data) {
         $('#classList').html('');
         $.each(data, function (index, value) {
             $('#classList').append('<option value="' + value.id + '">' + value.number + ' ' + value.type + '</option>');
@@ -48,7 +67,7 @@ function getClasses() {
 
 function getClassRooms() {
     $('#classRoomList').html('<option value="0">Wybierz sale</option>');
-    $.get("http://192.168.0.18:8080/classrooms", function (data) {
+    $.get(base_url + "classrooms", function (data) {
         $('#classRoomList').html('');
         $.each(data, function (index, value) {
             $('#classRoomList').append('<option value="' + value.id + '">' + value.number + ' [' + value.building + ']</option>');
@@ -58,7 +77,7 @@ function getClassRooms() {
 
 function getHours() {
     $('#hourList').html('<option value="0">Wybierz godzinę</option>');
-    $.get("http://192.168.0.18:8080/hours", function (data) {
+    $.get(base_url + "hours", function (data) {
         $.each(data, function (index, value) {
             $('#hourList').append('<option value="' + value.number + '">' + value.number + ' [' + value.start + ' - ' + value.end + ']</option>');
         });
@@ -82,7 +101,7 @@ function addLesson() {
     console.log(lesson);
     $.ajax({
         method: "PUT",
-        url: "http://192.168.0.18:8080/lessons",
+        url: base_url + "lessons",
         data: JSON.stringify(lesson),
         dataType: "json",
         contentType: "application/json",
@@ -104,7 +123,7 @@ function addTeacher() {
     teacher.shortName = data[2].value;
     $.ajax({
         method: "PUT",
-        url: "http://192.168.0.18:8080/teachers",
+        url: base_url + "teachers",
         data: JSON.stringify(teacher),
         dataType: "json",
         contentType: "application/json",
@@ -124,7 +143,7 @@ function addClass() {
     aClass.type = data[1].value;
     $.ajax({
         method: "PUT",
-        url: "http://192.168.0.18:8080/classes",
+        url: base_url + "classes",
         data: JSON.stringify(aClass),
         dataType: "json",
         contentType: "application/json",
@@ -144,7 +163,7 @@ function addClassRoon() {
     classRoom.building = data[1].value;
     $.ajax({
         method: "PUT",
-        url: "http://192.168.0.18:8080/classrooms",
+        url: base_url + "classrooms",
         data: JSON.stringify(classRoom),
         dataType: "json",
         contentType: "application/json",
